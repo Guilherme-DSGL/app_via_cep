@@ -1,16 +1,19 @@
-# app_via_cep
+# Flutter Via CEP API e Back4App Integration
 
-A new Flutter project.
+Este é um projeto Flutter que demonstra a integração com a API Via CEP para buscar informações de endereços e a utilização do serviço Back4App para salvar essas informações. O aplicativo utiliza o padrão de projeto MVC (Model-View-Controller) para organizar o código e separar as responsabilidades.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Busca de endereço através da API Via CEP.
+- Exibição dos endereços buscados.
+- Possibilidade de salvar os endereços no Back4App.
 
-A few resources to get you started if this is your first Flutter project:
+## Arquitetura
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+O projeto segue a seguinte estrutura de pastas:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **controllers**: Contém os controladores responsáveis por gerenciar a lógica de negócios da aplicação.
+- **presenter**: Aqui estão os widgets de apresentação, que exibem os dados e interagem com o usuário.
+- **models**: Definição das classes de modelo para representar os dados da aplicação.
+- **repositories**: Lida com a comunicação com a API Via CEP e com o serviço Back4App.
+- **utils**: Funções e classes utilitárias para auxiliar no desenvolvimento.
